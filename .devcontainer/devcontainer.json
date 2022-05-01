@@ -1,0 +1,13 @@
+{
+  // change the name for your project
+  "name": "ng-template",
+  "dockerComposeFile": "docker-componse.yml",
+  "service": "worksapce",
+  // change the name for your project
+  "workspaceFolder": "/ng-template",
+  "extensions": [
+    "angular.ng-template",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode"
+  ]
+}
