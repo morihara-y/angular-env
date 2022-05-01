@@ -1,0 +1,13 @@
+version: "3.6"
+services:
+  workspace:
+    # change the name for your project
+    container_name: ng-template
+    build: workspace
+    # change the name for your project
+    volumes:
+      - ../:/ng-template
+    ports:
+      - "4200:4200"
+    stdin_open: true
+    tty: true
